@@ -1,3 +1,65 @@
 .App {
   text-align: center;
 }
+
+/* css from old app to repurpose */
+/* body {
+  background: #347764;
+  background: linear-gradient(#226f19, #9c864a, #226f19, #3c8b56);
+  border-radius: 8px;
+  padding: 9px;
+  box-sizing: border-box;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 0.5pt;
+  color: white;
+  /* border: 1px solid #112b24; */
+  /* text-shadow: 1px 1px 1px #38BA96;
+}
+
+.mainHeader {
+  font-size: 45pt;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(43, 69, 44); 
+  background-color: rgba(42, 58, 36, 0.4); 
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888888;
+  width: 80%; 
+}
+
+.close {
+  color: #888888;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.table-header {
+  color: white;
+}
+
+.table-body {
+  color: white;
+} */ 
