@@ -1,0 +1,92 @@
+[
+  {
+    "observation": "Coyote",
+    "classification": "Mammal",
+    "location": "Los Angeles, CA",
+    "locationtype": "Neighborhood or City",
+    "date": "2023-07-12",
+    "timeofday": "Morning",
+    "id": "1"
+  },
+  {
+    "observation": "Black Pheobe",
+    "classification": "Bird",
+    "location": "Moorpark, CA",
+    "locationtype": "Sky",
+    "date": "2023-07-11",
+    "timeofday": "Afternoon",
+    "id": "2"
+  },
+  {
+    "observation": "Cat",
+    "classification": "Mammal",
+    "location": "Simi Valley, CA",
+    "locationtype": "Neighborhood or City",
+    "date": "2023-07-13",
+    "timeofday": "Evening",
+    "id": "3"
+  },
+  {
+    "observation": "Horse",
+    "classification": "Mammal",
+    "location": "Moorpark, CA",
+    "locationtype": "Field or Meadow",
+    "date": "2023-07-12",
+    "timeofday": "Afternoon",
+    "id": "4"
+  },
+  {
+    "observation": "Gopher Snake",
+    "classification": "Reptile",
+    "location": "Moorpark, CA",
+    "locationtype": "Hill or Mountain",
+    "date": "2023-07-08",
+    "timeofday": "Afternoon",
+    "id": "5"
+  },
+  {
+    "observation": "Rabbit",
+    "classification": "Mammal",
+    "location": "Simi Valley, CA",
+    "locationtype": "Hill or Mountain",
+    "date": "2023-07-12",
+    "timeofday": "Morning",
+    "id": "6"
+  },
+  {
+    "observation": "Beetle",
+    "classification": "Bug, Insect, or Spider",
+    "location": "Moorpark, CA",
+    "locationtype": "Field or Meadow",
+    "date": "2023-07-12",
+    "timeofday": "Afternoon",
+    "id": "7"
+  },
+  {
+    "observation": "Honey Bee",
+    "classification": "Bug, Insect, or Spidder",
+    "location": "Simi Valley, CA",
+    "locationtype": "Hill or Mountain",
+    "date": "2023-07-12",
+    "timeofday": "Afternoon",
+    "id": "8"
+  },
+  {
+    "observation": "Dog",
+    "classification": "Mammal",
+    "location": "Granada Hills, CA",
+    "locationtype": "Neighborhood or City",
+    "date": "2023-07-12",
+    "timeofday": "Morning",
+    "id": "9"
+  },
+  {
+    "observation": "Fence Lizard",
+    "classification": "Lizard",
+    "location": "Simi Valley, CA",
+    "locationtype": "State or National Park",
+    "date": "2023-07-11",
+    "timeofday": "Afternoon",
+    "id": "10"
+  }
+ ]
