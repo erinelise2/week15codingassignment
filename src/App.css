@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 0.5pt;
+  background: #347764;
+  background: linear-gradient(#226f19, #9c864a, #226f19, #3c8b56);
+  color: white;
+  /* border: 1px solid #112b24; */
+  text-shadow: 1px 1px 1px #38BA96;
+}
+
+/* Navigation Bar Styling */
+
+.navBar {
+  width: auto;
+  background: #9c864a;
+  color: white;
+  font-size: 24px;
+}
+
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.navBar ul li {
+  list-style: none;
+  margin-right: 1em;
+}
+
+.navBar ul li:hover {
+  color: rgba(0, 0, 0, 0.705);
+  text-decoration: underline;
 }
 
 /* css from old app to repurpose */

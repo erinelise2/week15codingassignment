@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import {useEffect, useState} from 'react'
 import { Button, Form, Input } from "reactstrap";
+// import Navbar from "./Components/Navbar";
 
 function App() {
   const API_URL = 
@@ -95,12 +96,13 @@ function App() {
   <FieldGuide 
     observations={observation}
     clickDelete={deleteObservation}
-    clickUpdate={updateProject}
+    clickUpdate={update/Observation}
     />
 </div>
 ) */}
   return (
-    <div className="form-contaienr App">
+    
+    <div className="form-container App">
           <Form className="m-5 border">
             <h3 className='header m-2'><span class="border-bottom row border-3 p-1 fs-1">What Did You See?</span></h3>
             <label className="fs-4 fw-bold p-2" for="newObservation">Name of Animal or Insect:</label>
@@ -176,7 +178,7 @@ function App() {
               onChange={(e) => setUpdatedTimeOfDay(e.target.value)}
             ></input>
             <br></br>
-            <button onClick={(e) => updateObservation(e, observation)}>Update</button>
+            <button onClick={(e) => updateObservation(e, observation)}>Update Observation ✐</button>
           </form>
         </div>
       ))}
