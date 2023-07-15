@@ -2,7 +2,8 @@ import React from "react";
 import './App.css';
 import {useEffect, useState} from 'react'
 import { Button, Form, Input, Label } from "reactstrap";
-// import Nav from "./Components/Navigation";
+// import Navigation from "./Components/Navigation";
+// import FieldGuide from "./Components/FieldGuide";
 // import { useTable } from 'react-table';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
 
   const [updatedObservation, setUpdatedObservation] = useState('')
   const [updatedClassification, setUpdatedClassification] = useState('')
-  const [upatedLocation, setUpdatedLocation] = useState('')
+  const [updatedLocation, setUpdatedLocation] = useState('')
   const [updatedLocationType, setUpdatedLocationType] = useState('')
   const [updatedDate, setUpdatedDate] = useState('')
   const [updatedTimeOfDay, setUpdatedTimeOfDay] = useState('')
@@ -71,7 +72,7 @@ function App() {
       ...observationObject,
       observation: updatedObservation,
       classification: updatedClassification,
-      location: upatedLocation,
+      location: updatedLocation,
       locationtype: updatedLocationType,
       date: updatedDate,
       timeofday: updatedTimeOfDay,
@@ -91,8 +92,8 @@ function App() {
   }
 // return (
 {/* <div>
-  <Navbar />
-  <NewObservationModal clickAdd={postNewObservation}>
+  <Navigation />
+  <NewObservationForm clickAdd={postNewObservation} />
   <FieldGuide />
 </div>
 ) */}
