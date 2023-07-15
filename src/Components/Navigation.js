@@ -19,5 +19,3 @@ export default class Nav extends Component {
     )
   }
 }
-
-// Basic navbar from the lab. Not responsive. Will need to do more research to get that method memorized/my go to.
